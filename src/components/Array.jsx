@@ -71,3 +71,24 @@ export const articleData = [
     delay: 1500,
   },
 ];
+
+export const carouselData = [
+  {
+    imgSrc: "jaga_lingkungan.jpeg",
+    alt: "Mahasiswa peduli lingkungan",
+    title: "Pengetahuan & Sikap Peduli Lingkungan",
+    description:
+      "Studi pada mahasiswa Pendidikan Geografi menunjukkan hubungan positif...",
+    link:
+      "https://ejournal.undip.ac.id/index.php/ilmulingkungan/article/view/45311",
+  },
+  {
+    imgSrc: "edukasi.jpeg",
+    alt: "Edukasi lingkungan anak",
+    title: "Edukasi Lingkungan Sejak Dini",
+    description:
+      "Kesadaran dan perilaku peduli lingkungan penting untuk dikenalkan sejak anak usia dini..",
+    link:
+      "https://murhum.ppjpaud.org/index.php/murhum/article/view/879/401",
+  },
+];

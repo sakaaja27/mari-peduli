@@ -1,6 +1,7 @@
 import Navbar from "./components/Header/Navbar";
 import HeroSection from "./components/HeroSection/Hero";
 import MateriSection from "./components/MateriSection/Materi";
+import WawasanSection from "./components/WawasanSection/Wawasan";
 
 export default function App() {
   return (
@@ -8,7 +9,7 @@ export default function App() {
       <Navbar/>
       <HeroSection/>
       <MateriSection/>
-      <Wawa
+      <WawasanSection/>
     </>
   )
 }
