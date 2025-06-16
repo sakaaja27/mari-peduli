@@ -44,3 +44,30 @@ export const carouselImages = [
       "Polusi bisa menyebabkan kesehatan manusia dan lingkungan menjadi lemah",
   },
 ];
+
+export const articleData = [
+  {
+    imgSrc: "siklus_alam.png",
+    title: "Dasar Dasar Ekologi & Lingkungan",
+    link: "./content/topikBelajar/TopikBelajar.html",
+    delay: 500,
+  },
+  {
+    imgSrc: "buang_sampah.jpeg",
+    title: "Isu Lingkungan Global & Lokal",
+    link: "./content/topikBelajar/TopikBelajar.html",
+    delay: 800,
+  },
+  {
+    imgSrc: "hidup_berkelanjutan.jpeg",
+    title: "Solusi & Gaya Hidup keberlanjutan",
+    link: "./content/topikBelajar/TopikBelajar.html",
+    delay: 1100,
+  },
+  {
+    imgSrc: "energi_terbarukan.jpeg",
+    title: "Teknologi Untuk Lingkungan",
+    link: "./content/topikBelajar/TopikBelajar.html",
+    delay: 1500,
+  },
+];
