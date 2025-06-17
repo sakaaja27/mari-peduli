@@ -4,15 +4,15 @@ import ContentTop from "./ContentTop";
 import CardContent from "./CardContent";
 export default function AksiSection() {
   return (
-    <section className="pt-24 relative">
+    <section id="aksi_kami" className="pt-24 relative">
       <ContentTop />
-      {contentAksi.map((item) => (
-        <CardContent key={item.id} {...item} />
+      {contentAksi.map((item, index) => (
+        <CardContent
+          itemData={item}
+          key={item.id}
+          isFirstCard={index === 0}
+        />
       ))}
     </section>
   );
 }
-
-
-
-

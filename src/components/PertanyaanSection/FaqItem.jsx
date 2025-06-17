@@ -8,7 +8,7 @@ export default function FaqItem({ question, answer, isOpen, onToggle }) {
   const closeModal = () => setIsModalOpen(false);
 
   return (
-    <div className="bg-white border border-gray-600/30 rounded-xl min-h-20 p-4 q-card">
+    <div className="bg-white border border-gray-600/30 rounded-xl min-h-25 p-4 q-card">
       <div
         className="flex justify-between items-center cursor-pointer"
         onClick={onToggle} // Jika diklik, ubah status isOpen
