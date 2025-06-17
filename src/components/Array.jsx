@@ -1,4 +1,3 @@
-
 export const carouselImages = [
   {
     id: 1,
@@ -80,8 +79,7 @@ export const carouselData = [
     title: "Pengetahuan & Sikap Peduli Lingkungan",
     description:
       "Studi pada mahasiswa Pendidikan Geografi menunjukkan hubungan positif...",
-    link:
-      "https://ejournal.undip.ac.id/index.php/ilmulingkungan/article/view/45311",
+    link: "https://ejournal.undip.ac.id/index.php/ilmulingkungan/article/view/45311",
   },
   {
     imgSrc: "edukasi.jpeg",
@@ -89,14 +87,13 @@ export const carouselData = [
     title: "Edukasi Lingkungan Sejak Dini",
     description:
       "Kesadaran dan perilaku peduli lingkungan penting untuk dikenalkan sejak anak usia dini..",
-    link:
-      "https://murhum.ppjpaud.org/index.php/murhum/article/view/879/401",
+    link: "https://murhum.ppjpaud.org/index.php/murhum/article/view/879/401",
   },
 ];
 
 export const contentAksi = [
   {
-    id:1,
+    id: 1,
     imgSrc: "share_ig.png",
     imgAlt: "share ig",
     tagText: "Bagikan Momen Bersama MariPeduli",
@@ -109,10 +106,11 @@ export const contentAksi = [
       "Jangan ragu untuk berinteraksi, tinggalkan komentar, dan yang terpenting, bagikan postingan yang menurutmu bermanfaat.",
     ],
     ctaLink: "https://www.instagram.com/bramastaah?igsh=MXg4azVmazRzN2Vpdg==",
-    lottieSrc: "https://lottie.host/ea129a67-136b-4d6e-805f-96f6a6c01bf7/pp0HQql2DE.lottie",
+    lottieSrc:
+      "https://lottie.host/ea129a67-136b-4d6e-805f-96f6a6c01bf7/pp0HQql2DE.lottie",
   },
   {
-    id:2,
+    id: 2,
     imgSrc: "share_ide.png",
     imgAlt: "share ig",
     tagText: "Bagikan Materi Ide Kalian dengan MariPeduli",
@@ -125,7 +123,61 @@ export const contentAksi = [
       "",
     ],
     ctaLink: "mailto:sakabramasta@gmail.com?subject=Halo admin",
-    lottieSrc: "https://lottie.host/59c192e2-b733-4b61-9bfc-93051f8fd5f6/0sHrsKucX7.lottie",
+    lottieSrc:
+      "https://lottie.host/59c192e2-b733-4b61-9bfc-93051f8fd5f6/0sHrsKucX7.lottie",
   },
-]
+];
 
+export const faqList = [
+  {
+    id:1,
+    question: "Apa sebenarnya MariPeduli itu?",
+    answer:
+      "MariPeduli adalah sebuah platform edukasi digital gratis yang bertujuan untuk meningkatkan kesadaran dan pengetahuan masyarakat mengenai isu-isu lingkungan",
+  },
+  {
+    id:2,
+    question: "Apakah semua konten di MariPeduli benar-benar gratis?",
+    answer:
+      "Ya, 100% gratis. Seluruh modul pembelajaran, artikel, dan sumber daya yang ada di platform MariPeduli dapat Anda akses sepenuhnya tanpa biaya apapun",
+  },
+  {
+    id:3,
+    question: "Siapakah target pengguna platform MariPeduli?",
+    answer:
+      "MariPeduli dirancang untuk semua orang! Baik Anda seorang pelajar, mahasiswa, guru, profesional muda, atau siapa saja yang peduli terhadap masa depan bumi",
+  },
+  {
+    id:4,
+    question: "Apakah saya perlu membuat akun atau login untuk belajar?",
+    answer:
+      "Tidak perlu sama sekali. Anda bisa langsung menjelajahi dan mempelajari semua materi tanpa perlu mendaftar atau login",
+  },
+  {
+    id:5,
+    question: "Topik apa saja yang bisa saya pelajari di sini?",
+    answer:
+      "Kami menyediakan beragam topik, mulai dari ekologi, perubahan iklim, krisis sampah plastik, gaya hidup zero waste, energi terbarukan, hingga teknologi hijau",
+  },
+  {
+    id:6,
+    question:
+      "Bagaimana saya bisa yakin informasi yang disajikan akurat dan terpercaya?",
+    answer:
+      "Kami menyajikan informasi yang diverifikasi dari berbagai sumber kredibel, seperti jurnal ilmiah dan organisasi lingkungan terkemuka",
+  },
+  {
+    id:7,
+    question:
+      "Saya sangat tertarik! Bagaimana saya bisa ikut berkontribusi atau terlibat?",
+    answer:
+      "Anda bisa membagikan konten MariPeduli, memberi masukan ide, atau menerapkan pengetahuan tersebut di kehidupan nyata",
+  },
+  {
+    id:8,
+    question:
+      "Apakah platform ini bisa diakses dengan baik di ponsel atau smartphone saya?",
+    answer:
+      "Tentu. MariPeduli dirancang mobile-first agar nyaman diakses di semua ukuran layar",
+  },
+];
