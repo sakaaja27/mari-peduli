@@ -1,4 +1,5 @@
 import AksiSection from "./components/AksiSection/Aksi";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Header/Navbar";
 import HeroSection from "./components/HeroSection/Hero";
 import MateriSection from "./components/MateriSection/Materi";
@@ -14,6 +15,7 @@ export default function App() {
       <WawasanSection/>
       <AksiSection/>
       <PertanyaanSection/>
+      <Footer/>
     </>
   )
 }

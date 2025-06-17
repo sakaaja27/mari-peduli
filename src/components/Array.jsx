@@ -130,54 +130,79 @@ export const contentAksi = [
 
 export const faqList = [
   {
-    id:1,
+    id: 1,
     question: "Apa sebenarnya MariPeduli itu?",
     answer:
       "MariPeduli adalah sebuah platform edukasi digital gratis yang bertujuan untuk meningkatkan kesadaran dan pengetahuan masyarakat mengenai isu-isu lingkungan",
   },
   {
-    id:2,
+    id: 2,
     question: "Apakah semua konten di MariPeduli benar-benar gratis?",
     answer:
       "Ya, 100% gratis. Seluruh modul pembelajaran, artikel, dan sumber daya yang ada di platform MariPeduli dapat Anda akses sepenuhnya tanpa biaya apapun",
   },
   {
-    id:3,
+    id: 3,
     question: "Siapakah target pengguna platform MariPeduli?",
     answer:
       "MariPeduli dirancang untuk semua orang! Baik Anda seorang pelajar, mahasiswa, guru, profesional muda, atau siapa saja yang peduli terhadap masa depan bumi",
   },
   {
-    id:4,
+    id: 4,
     question: "Apakah saya perlu membuat akun atau login untuk belajar?",
     answer:
       "Tidak perlu sama sekali. Anda bisa langsung menjelajahi dan mempelajari semua materi tanpa perlu mendaftar atau login",
   },
   {
-    id:5,
+    id: 5,
     question: "Topik apa saja yang bisa saya pelajari di sini?",
     answer:
       "Kami menyediakan beragam topik, mulai dari ekologi, perubahan iklim, krisis sampah plastik, gaya hidup zero waste, energi terbarukan, hingga teknologi hijau",
   },
   {
-    id:6,
+    id: 6,
     question:
       "Bagaimana saya bisa yakin informasi yang disajikan akurat dan terpercaya?",
     answer:
       "Kami menyajikan informasi yang diverifikasi dari berbagai sumber kredibel, seperti jurnal ilmiah dan organisasi lingkungan terkemuka",
   },
   {
-    id:7,
+    id: 7,
     question:
       "Saya sangat tertarik! Bagaimana saya bisa ikut berkontribusi atau terlibat?",
     answer:
       "Anda bisa membagikan konten MariPeduli, memberi masukan ide, atau menerapkan pengetahuan tersebut di kehidupan nyata",
   },
   {
-    id:8,
+    id: 8,
     question:
       "Apakah platform ini bisa diakses dengan baik di ponsel atau smartphone saya?",
     answer:
       "Tentu. MariPeduli dirancang mobile-first agar nyaman diakses di semua ukuran layar",
+  },
+];
+
+export const footerLinks = [
+  { label: "Topik Belajar", href: "#topik" },
+  { label: "Sumber Daya", href: "#wawasan" },
+  { label: "Aksi Kami", href: "#aksi_kami" },
+  { label: "Pertanyaan", href: "#pertanyaan" },
+];
+
+export const socialLinks = [
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com",
+    icon: "bxl-instagram",
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com",
+    icon: "bxl-linkedin",
+  },
+  {
+    label: "Youtube",
+    href: "https://www.youtube.com",
+    icon: "bxl-youtube",
   },
 ];
