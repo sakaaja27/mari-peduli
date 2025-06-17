@@ -1,3 +1,4 @@
+
 export const carouselImages = [
   {
     id: 1,
@@ -92,3 +93,39 @@ export const carouselData = [
       "https://murhum.ppjpaud.org/index.php/murhum/article/view/879/401",
   },
 ];
+
+export const contentAksi = [
+  {
+    id:1,
+    imgSrc: "share_ig.png",
+    imgAlt: "share ig",
+    tagText: "Bagikan Momen Bersama MariPeduli",
+    tagIcon: "★",
+    heading: "MariPeduli Dengan Lingkungan",
+    subheading: "Agar Bumi Terjaga dan Hidup Nyaman Selalu",
+    title: "Ikuti & Bagikan: Sebarkan semangat MariPeduli di media sosialmu!",
+    description: [
+      "Jadilah bagian dari komunitas MariPeduli yang lebih luas dengan mengikuti kami di platform media sosial favoritmu!",
+      "Jangan ragu untuk berinteraksi, tinggalkan komentar, dan yang terpenting, bagikan postingan yang menurutmu bermanfaat.",
+    ],
+    ctaLink: "https://www.instagram.com/bramastaah?igsh=MXg4azVmazRzN2Vpdg==",
+    lottieSrc: "https://lottie.host/ea129a67-136b-4d6e-805f-96f6a6c01bf7/pp0HQql2DE.lottie",
+  },
+  {
+    id:2,
+    imgSrc: "share_ide.png",
+    imgAlt: "share ig",
+    tagText: "Bagikan Materi Ide Kalian dengan MariPeduli",
+    tagIcon: "★",
+    heading: "Ayo kita saling berbagi pengetahuan",
+    subheading: "Ayo kita saling berbagi pengetahuan",
+    title: " Punya ide materi atau artikel? Beritahu kami!",
+    description: [
+      "Jangan ragu untuk mengirimkan ide, kritik, atau saran. Kontribusimu bisa jadi inspirasi besar bagi pengguna lain!",
+      "",
+    ],
+    ctaLink: "mailto:sakabramasta@gmail.com?subject=Halo admin",
+    lottieSrc: "https://lottie.host/59c192e2-b733-4b61-9bfc-93051f8fd5f6/0sHrsKucX7.lottie",
+  },
+]
+
