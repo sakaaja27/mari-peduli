@@ -74,6 +74,7 @@ export const articleData = [
 
 export const carouselData = [
   {
+    id: 1,
     imgSrc: "jaga_lingkungan.jpeg",
     alt: "Mahasiswa peduli lingkungan",
     title: "Pengetahuan & Sikap Peduli Lingkungan",
@@ -82,6 +83,7 @@ export const carouselData = [
     link: "https://ejournal.undip.ac.id/index.php/ilmulingkungan/article/view/45311",
   },
   {
+    id: 2,
     imgSrc: "edukasi.jpeg",
     alt: "Edukasi lingkungan anak",
     title: "Edukasi Lingkungan Sejak Dini",
@@ -89,6 +91,16 @@ export const carouselData = [
       "Kesadaran dan perilaku peduli lingkungan penting untuk dikenalkan sejak anak usia dini..",
     link: "https://murhum.ppjpaud.org/index.php/murhum/article/view/879/401",
   },
+  {
+    id: 2,
+    imgSrc: "stop_polusi.jpeg",
+    alt: "Stop Polusi Udara",
+    title: "Stop Polusi Udara",
+    description:
+      "Kesadaran dan perilaku peduli lingkungan penting untuk dikenalkan sejak anak usia dini..",
+    link: "https://murhum.ppjpaud.org/index.php/murhum/article/view/879/401",
+  },
+  
 ];
 
 export const contentAksi = [
