@@ -1,14 +1,51 @@
+import React, { useRef, useEffect } from "react";
+import { gsap } from "gsap";
 export default function ContentCard({ articleData }) {
+  const containerRef = useRef(null);
+  const animationTriggered = useRef(false);
+  useEffect(() => {
+    let ctx;
+    const node = containerRef.current;
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting && !animationTriggered.current) {
+        animationTriggered.current = true;
+        ctx = gsap.context(() => {
+          gsap.from(".card-article-item", { 
+            opacity: 0,
+            y: 300,
+            ease: "power3.out", 
+            duration: 2,
+            stagger: 0.7,
+          });
+        }, containerRef);
+        observer.unobserve(entry.target); 
+      }
+    },{
+      root: null,
+      threshold: 0.2,
+    }
+  );
+    if (node) {
+      observer.observe(node);
+    }
+    return () => {
+      if (node) {
+        observer.unobserve(node);
+      }
+      if (ctx) {
+        ctx.revert();
+      }
+    };
+  }, []);
   return (
     <div className="grid place-items-center px-6 py-20">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-14 md:gap-x-6">
+      <div ref={containerRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-14 md:gap-x-6">
         {articleData.map((item, index) => (
           <CardArticle
             key={index}
             imgSrc={item.imgSrc}
             title={item.title}
             link={item.link}
-            delay={item.delay}
           />
         ))}
       </div>
@@ -16,12 +53,17 @@ export default function ContentCard({ articleData }) {
   );
 }
 
-function CardArticle({ imgSrc, title, link, delay }) {
+function CardArticle({ imgSrc, title, link }) {
+  const articleRef = useRef(null);
+
+  useEffect (() => {
+    if (articleRef.current) {
+        articleRef.current.classList.add("card-article-item");
+    }
+  },[])
   return (
-    <article
+    <article ref={articleRef}
       className="relative overflow-hidden group"
-      data-aos="fade-up"
-      data-aos-delay={delay}
     >
       <CardImage imgSrc={imgSrc} title={title} />
       <CardText link={link} title={title} />

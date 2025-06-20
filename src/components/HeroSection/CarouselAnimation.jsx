@@ -1,6 +1,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
+
 export default function useCarouselAnimation() {
   const trackRef = useRef(null);
 
